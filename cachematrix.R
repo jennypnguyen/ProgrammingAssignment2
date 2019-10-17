@@ -1,4 +1,4 @@
-##These functions will take a square matrix and find the inverse. If the inverse was previously solve, it will find the inverse from the cache and return that value.
+##These functions will take a square matrix and find the inverse. If the inverse was previously solved, it will find the inverse from the cache and return that value.
 
 ##The function below will create a special "matrix" object that will cache its inverse
 
