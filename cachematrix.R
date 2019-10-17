@@ -36,6 +36,9 @@ cacheSolve <- function(x, ...){
 #Testing
 
 x <- matrix(1:4, nrow = 2, ncol=2) #sample matrix
+
+#Testing Solve Function
+
 #y <- matrix(c(-2, 1, 1.5, -0.5), nrow = 2, ncol = 2) #inverse of sample matrix
 #identical(solve(x), y) #Should be TRUE
 
