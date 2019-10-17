@@ -1,4 +1,5 @@
-##These functions will take a square matrix and find the inverse. If the inverse was previously solved, it will find the inverse from the cache and return that value.
+##These functions will take a square matrix and find the inverse. 
+##If the inverse was previously solved, it will find the inverse from the cache and return that value.
 
 ##The function below will create a special "matrix" object that will cache its inverse
 
@@ -17,7 +18,8 @@ makeCacheMatrix <- function(x = matrix()) {
         
 }
 
-##The function below computes the inverse of the special "matrix" returned by makeCacheMatrix from above. If the inverse was previously solved, then this cacheSolve function will retrieve this inverse value from the cache.
+##The function below computes the inverse of the special "matrix" returned by makeCacheMatrix from above. 
+##If the inverse was previously solved, then this cacheSolve function will retrieve this inverse value from the cache.
 
 cacheSolve <- function(x, ...){  
         i <- x$getinverse()
